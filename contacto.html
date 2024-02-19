@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Arteando</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Resina,moldes,flores,llaveros,regalos">
+	<meta name="description" content="Descubre cómo la resina epóxica se ha convertido en una poderosa herramienta para los artistas contemporáneos. Conoce a los artistas destacados que utilizan la resina en sus obras de arte innovadoras y emocionantes.
+Técnicas artísticas: Sumérgete en las diversas técnicas que se pueden aplicar con resina epóxica, como coladas en capas, efectos de marmoleado, incrustaciones y más. Te ofreceremos guías paso a paso para que puedan comenzar tus propias creaciones.">
+	<meta name="author" content="Brahian Davalos">
+	<meta name="robots" content="index">
+	<link rel="icon" href="imagen/logo.ico">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;300;500;800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/2f3309ea4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+			<nav class="header-contenedor">
+				<a href="index.html" class="title">ARTEANDO</a>
+			<ul class="nav__ul">
+					<li class="nav__li"><i class="fa-solid fa-house"></i><a href="index.html">Inicio</a></li>
+					<li class="nav__li"><i class="fa-solid fa-users"></i><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+					<li class="nav__li"><i class="fa-solid fa-shop"></i><a href="tienda.html">Tienda</a></li>
+					<li class="nav__li"><i class="fa-solid fa-address-book"></i><a href="contacto.html">Contactos</a></li>
+			</ul>
+		
+			<button class="ham" type="button">
+				<span class="br-1"></span>
+				<span class="br-2"></span>
+				<span class="br-3"></span>
+			</button>
+		</nav>
+	</header>
+			<section class="contacto" id="contacto">
+				<div class="contenido-cont">
+					<h2>Contacto</h2>
+						<div class="fila">
+							<div class="col">
+								<form action="" id="form" método="POST">
+									<input type="text" placeholder="Tú Nombre" name="name" required>
+									<input type="text" placeholder="Número Teléfonico" name="phone" required>
+									<input type="text" placeholder="Dirección de correo" name="email" required>
+									<input type="text" placeholder="Tema" name="theme" required>
+									<textarea name="message" cols="30" rows="10" placeholder="Mensaje/pedidos" required></textarea>
+									<button class="enviar" type="submit" id="button" value="Enviar Mensaje">
+										Enviar Mensaje <i class="fa-solid fa-paper-plane"> </i>
+										<span class="overlay"></span>
+									</button>
+								</form>
+					<script type="text/javascript"
+ 						 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+					<script type="text/javascript">
+  						emailjs.init('t08EqKv9BOcPlDxkZ')
+					</script>
+				</div>
+				<div class="col">
+					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d444.23000768306906!2d-55.23496166441801!3d-27.035219408162465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1699278083268!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class="info">
+						<ul>
+							<li><i class="fa-solid fa-location-dot"></i>Av. Antártida Argentina 758</li>
+							<li><i class="fa-brands fa-whatsapp"></i>Whatsapp: +543743 595679</li>
+							<li><i class="fa-solid fa-envelope"></i>Email: bra05ca0798@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+	</section>
+	<footer class="footer">
+			<ul class="ul-footer-contact">
+				<li class="footer-contact"><i class="fa-brands fa-whatsapp"></i><a href="https://wa.link/kswcko" target="_blank">Whatsapp</a></li>
+
+				<li class="footer-contact"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/_arte_ando_/" target="_blank">Instagram</a></li>
+
+				<li class="footer-contact"><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/lilian.baez927?mibextid=MUfg1|" target="_blank">facebook</a></li>
+
+			</ul>
+			<ul class="ul-footer">
+				<li class="footer-contact"><i class="fa-solid fa-location-dot"><a></i>Av. Antátida Argentina 758</a></li>
+				<li class="footer-contact"><i class="fa-solid fa-envelope"><a></i>Email:baezlilian1980@gmail.com</a></li>
+			</ul>
+	</footer>
+	
+<script src="codigo.js"></script>
+</body>
+</html>
