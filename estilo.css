@@ -150,7 +150,7 @@ nav {
 		padding-bottom: 25px;
 	}
 	.nav__ul {
-		height: 109vh;
+		height: 100vh;
 		font-size: medium;
 		text-align: center;
 		flex-direction: column;
